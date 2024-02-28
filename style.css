@@ -1,0 +1,163 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #13f939;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #FAFAF9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #1B1C1E;
+}
+
+
+
+}
+#logo{
+  padding: 1% 1% 1% 1%;
+
+}
+
+h2 {
+  text-align:center;
+  color:#FAFAF9;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+h3 {
+  text-align:center;
+  color:#FAFAF9;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.project-heading {
+  text-align:center;
+  color:#1B1C1E;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+p {
+  text-align:center;
+  color:#FAFAF9;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.project-detail {
+  text-align:center;
+  color:#1B1C1E;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+#home {
+  background-color: #FAFAF9;
+  padding: auto;
+}
+
+#about{
+  display: flex;
+}
+#aboutme{
+  background-color:#1B1C1E;
+  padding-left: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+
+#photo{
+  width:50%;
+  background-color: #1B1C1E;
+  align:center;
+  
+}
+#my-photo{
+  border-radius: 5px;
+  padding-left: 10%;
+  
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FAFAF9;
+  padding: 20px;
+  color:#1B1C1E;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+.row {
+  margin: 8px -16px;
+}
+
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.content {
+  background-color: #FAFAF9;
+  color:black;
+  padding: 10px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
